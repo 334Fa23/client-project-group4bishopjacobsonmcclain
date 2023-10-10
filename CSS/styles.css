@@ -3,3 +3,28 @@
 /*Style rules for navigation*/
 
 /*Style rules for footer*/
+footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+footer .copyright {
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    background-color: 
+    padding: 2% 4%;
+    float: left;
+    width: 75%;  
+}
+
+.social {
+    float: right;
+    width: 20%;
+    padding: 2%;
+}
+
+.social img {
+    display: inline-block;
+    padding: 5%;
+}
