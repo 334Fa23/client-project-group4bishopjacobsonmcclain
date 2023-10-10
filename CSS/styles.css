@@ -14,12 +14,12 @@ nav {
     margin: 0;
     font-family: DM-sans;
 }
-
+/*Navigation container*/
 ul {
     list-style: none;
     background: #013220;
 }
-
+/*Main navigation content*/
 ul li {
     display: inline-block;
     position: relative;
@@ -32,6 +32,39 @@ ul li a {
     text-decoration: none;
     text-align: center;
     font-size: 20px;
+}
+/*Activities  list*/
+.dropdown li {
+    display: block;
+}
+
+.dropdown {
+    width: 100%;
+    background: #013220;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+/* Hover for nav items*/
+ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+/*hover for activities and drop down option*/
+ul li:hover ul.dropdown {
+    display: block;
+}
+/*dropdown for local dinning*/
+.dropdown2 {
+    width: 100%;
+    background: #013220;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+/*hover for local dinning*/
+ul li:hover ul.dropdown2 {
+    display: block;
 }
 
 /*Style rules for footer*/
