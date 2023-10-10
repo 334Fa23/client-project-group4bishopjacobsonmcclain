@@ -49,6 +49,21 @@ footer a {
 
 footer img {
     float: left;
+    height: 60px;
+    width: 60px;
+    padding: 3%;
+}
+
+.social {
+    float: right;
+    height:15%;
+    width: 15%;
+    padding: 3%;
+}
+
+.social img {
+    display: inline-block;
     height: 15%;
-    width:15%;
+    width: 15%;
+    padding: 5%;
 }
