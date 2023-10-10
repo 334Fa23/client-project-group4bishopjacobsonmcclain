@@ -36,23 +36,22 @@ ul li a {
 
 /*Style rules for footer*/
 footer {
-    background-color: #808080;
+    background-color: #fff;
     text-align: center;
+    font-size: 0.65em;
+    clear: left;
 }
 
-footer .copyright {
-    font-size: 1em;
-    text-align: center;
-    color: #fff;
-    padding: 2% 4%;
-    float: left;
-    width: 75%;  
+footer a {
+    color: #4645a8;
+    text-decoration: none;
 }
 
 .social {
     float: right;
+    height:20%;
     width: 20%;
-    padding: 2%;
+    padding: 3%;
 }
 
 .social img {
