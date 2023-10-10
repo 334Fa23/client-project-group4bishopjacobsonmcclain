@@ -47,16 +47,8 @@ footer a {
     text-decoration: none;
 }
 
-.social {
-    float: right;
-    height:15%;
-    width: 15%;
-    padding: 3%;
-}
-
-.social img {
-    display: inline-block;
+footer img {
+    float: left;
     height: 15%;
-    width: 15%;
-    padding: 5%;
+    width:15%;
 }
