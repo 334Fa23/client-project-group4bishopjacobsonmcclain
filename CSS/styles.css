@@ -1,5 +1,13 @@
 /*Style rules for header*/
+header {
+    top: 0;
+    background-color: white;
+    height: 190px;
+}
 
+header img {
+    margin: 0 auto;
+}
 /*Style rules for navigation*/
 
 /*Style rules for footer*/
@@ -12,7 +20,6 @@ footer .copyright {
     font-size: 1em;
     text-align: center;
     color: #fff;
-    background-color: 
     padding: 2% 4%;
     float: left;
     width: 75%;  
