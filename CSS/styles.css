@@ -56,14 +56,14 @@ footer img {
 
 .social {
     float: right;
-    height:15%;
-    width: 15%;
-    padding: 3%;
+    height: 4%;
+    width: 4%;
+    padding: 2%;
 }
 
 .social img {
     display: inline-block;
-    height: 15%;
-    width: 15%;
-    padding: 5%;
+    height: 4%;
+    width: 4%;
+    padding: 2%;
 }
