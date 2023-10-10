@@ -69,26 +69,34 @@ ul li:hover ul.dropdown2 {
 
 /*Style rules for footer*/
 footer {
-    background-color: #808080;
+    background-color: #fff;
     text-align: center;
+    font-size: 0.70em;
+    clear: left;
 }
 
-footer .copyright {
-    font-size: 1em;
-    text-align: center;
-    color: #fff;
-    padding: 2% 4%;
-    float: left;
-    width: 75%;  
+footer a {
+    color: #4645a8;
+    text-decoration: none;
+}
+
+footer img {
+    float: center;
+    height: 6%;
+    width: 6%;
+    padding: 2%;
 }
 
 .social {
     float: right;
-    width: 20%;
+    height: 4%;
+    width: 4%;
     padding: 2%;
 }
 
 .social img {
     display: inline-block;
-    padding: 5%;
+    height: 4%;
+    width: 4%;
+    padding: 2%;
 }
