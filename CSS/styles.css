@@ -82,8 +82,15 @@ footer img {
     padding: 2%;
 }
 
-.socials {
+.social {
     float: center;
+    height: 4%;
+    width: 4%;
+    padding: 2%;
+}
+
+.social img {
+    display: inline-block;
     height: 4%;
     width: 4%;
     padding: 2%;
