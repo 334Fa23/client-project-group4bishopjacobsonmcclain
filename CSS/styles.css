@@ -75,17 +75,17 @@ footer {
     clear: left;
 }
 
-footer img, social {
+footer img {
     float: center;
-    height: 6%;
-    width: 6%;
+    height: 7%;
+    width: 7%;
     padding: 2%;
 }
 
 .social {
     float: center;
-    height: 4%;
-    width: 4%;
+    height: 50%;
+    width: 50%;
     padding: 2%;
 }
 
