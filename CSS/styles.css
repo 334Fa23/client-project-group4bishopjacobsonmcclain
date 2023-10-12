@@ -69,15 +69,10 @@ ul li:hover ul.dropdown2 {
 
 /*Style rules for footer*/
 footer {
-    background-color: #fff;
+    background-color: #bebebe;
     text-align: center;
     font-size: 0.70em;
     clear: left;
-}
-
-footer a {
-    color: #4645a8;
-    text-decoration: none;
 }
 
 footer img {
@@ -87,15 +82,8 @@ footer img {
     padding: 2%;
 }
 
-.social {
-    float: right;
-    height: 4%;
-    width: 4%;
-    padding: 2%;
-}
-
-.social img {
-    display: inline-block;
+.socials {
+    float: center;
     height: 4%;
     width: 4%;
     padding: 2%;
