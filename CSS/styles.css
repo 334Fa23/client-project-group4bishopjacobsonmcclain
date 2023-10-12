@@ -82,7 +82,10 @@ footer img {
 
 .social {
     float: center;
-    text-align: center;
     height: 20%;
     width: 20%;
+}
+
+.social img {
+    float: center;
 }
