@@ -85,13 +85,6 @@ footer img {
 .social {
     float: center;
     text-align: center;
-    height: 75%;
-    width: 75%;
-}
-
-.social img {
-    float: center;
-    height: 4%;
-    width: 4%;
-    padding: 2%;
+    height: 50%;
+    width: 50%;
 }
