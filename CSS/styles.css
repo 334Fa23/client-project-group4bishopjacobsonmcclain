@@ -75,34 +75,23 @@ footer {
     clear: left;
 }
 
-footer .copyright {
-  font-size: 0.75em;
-  text-align: center;
-  color: #fff;
-  padding: 2% 4%;
-  float: left;
-  width: 75%;  
-}
-
-footer .logo {
+footer img, social {
     float: center;
-    height: 8%;
-    width: 8%;
-    padding 2%;
-}
-
-footer p a {
-  color: #fff;
-  text-decoration: none;
+    height: 6%;
+    width: 6%;
+    padding: 2%;
 }
 
 .social {
-    float: right;
-    width: 20%;
+    float: center;
+    height: 4%;
+    width: 4%;
     padding: 2%;
 }
 
 .social img {
-    display: inline-block;
-    padding: 5%;
+    float: center;
+    height: 4%;
+    width: 4%;
+    padding: 2%;
 }
