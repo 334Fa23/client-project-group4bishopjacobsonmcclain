@@ -66,7 +66,40 @@ ul li:hover ul.dropdown {
 ul li:hover ul.dropdown2 {
     display: block;
 }
+/*Style rules for home page content*/
+.bg-static {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 30%;
+    height: auto;
+}
 
+.info {
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+.info h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+#info-ul {
+    background-color: #fff;
+}
 /*Style rules for footer*/
 footer {
     background-color: #d3d3d3;
