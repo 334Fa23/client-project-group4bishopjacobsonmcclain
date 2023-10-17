@@ -103,6 +103,8 @@ ul li:hover ul.dropdown2 {
 
 #info-ul ul li {
     display: block;
+    font-size: 1.2em;
+    line-height: 1.6em;
 }
 
 /*Style rules for footer*/
