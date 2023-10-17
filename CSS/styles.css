@@ -97,6 +97,14 @@ ul li:hover ul.dropdown2 {
     line-height: 1.6em;
 }
 
+#info-ul ul{
+    background: #fff;
+}
+
+#info-ul ul li {
+    display: block;
+}
+
 /*Style rules for footer*/
 footer {
     background-color: #d3d3d3;
