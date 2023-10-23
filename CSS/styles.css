@@ -121,10 +121,8 @@ footer {
     font-size: 0.70em;
 }
 
-footer img {
-    float: center;
-    height: 8%;
-    width: 8%;
+.logo {
+    align-content: center;
 }
 
 .social {
