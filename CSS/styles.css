@@ -8,17 +8,20 @@ header {
 header img {
     margin: 0 auto;
 }
+
 /*Style rules for navigation*/
 nav {
     padding: 0;
     margin: 0;
     font-family: DM-sans;
 }
+
 /*Navigation container*/
 ul {
     list-style: none;
     background: #013220;
 }
+
 /*Main navigation content*/
 ul li {
     display: inline-block;
@@ -33,6 +36,7 @@ ul li a {
     text-align: center;
     font-size: 20px;
 }
+
 /*Activities  list*/
 .dropdown li {
     display: block;
@@ -45,15 +49,18 @@ ul li a {
     z-index: 999;
     display: none;
 }
+
 /* Hover for nav items*/
 ul li a:hover {
     background: #fff;
     color: #000;
 }
+
 /*hover for activities and drop down option*/
 ul li:hover ul.dropdown {
     display: block;
 }
+
 /*dropdown for local dinning*/
 .dropdown2 {
     width: 100%;
@@ -62,10 +69,12 @@ ul li:hover ul.dropdown {
     z-index: 999;
     display: none;
 }
+
 /*hover for local dinning*/
 ul li:hover ul.dropdown2 {
     display: block;
 }
+
 /*Style rules for home page content*/
 .bg-static {
     display: block;
@@ -98,7 +107,7 @@ ul li:hover ul.dropdown2 {
     line-height: 1.6em;
 }
 
-#info-ul ul{
+#info-ul ul {
     background: #fff;
 }
 
@@ -110,9 +119,69 @@ ul li:hover ul.dropdown2 {
 
 /*style rules for about page*/
 
+.ginfo {
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+#team-members {
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+
+
 /*style rule for contact page*/
 
-    
+#payment-info {
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+#Travel-agencies {
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+#contact-heading {
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
+
+#form {
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+}
 
 /*Style rules for footer*/
 footer {
@@ -134,5 +203,10 @@ footer {
 }
 
 .social img {
+<<<<<<< Updated upstream
     align-content: center;
 }
+=======
+    float: center;
+}
+>>>>>>> Stashed changes
