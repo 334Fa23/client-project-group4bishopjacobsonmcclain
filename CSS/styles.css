@@ -127,6 +127,7 @@ ul li:hover ul.dropdown2 {
     background: #fff;
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    text-align: center;
 }
 
 #team-members {
@@ -139,9 +140,23 @@ ul li:hover ul.dropdown2 {
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
 }
 
+#team-members {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
 
+#team-members > div {
+    text-align:center;
+}
 
 /*style rule for contact page*/
+h1 {
+    text-align: center;
+    margin-bottom:0;
+    padding-bottom: 0;
+    position:sticky;
+}
 
 #payment-info {
     position: relative;
@@ -151,6 +166,7 @@ ul li:hover ul.dropdown2 {
     background: #fff;
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    text-align: center;
 }
 
 #Travel-agencies {
@@ -205,7 +221,18 @@ ul li:hover ul.dropdown2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
     
+/*Style rules for payment info grid*/
+
+#payment-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+#payment-info > div {
+    text-align: center;
 }
 
 /*Style rules for footer*/
