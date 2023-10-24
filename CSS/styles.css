@@ -183,6 +183,31 @@ ul li:hover ul.dropdown2 {
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
 }
 
+/*Style rules for activity images*/
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    margin: auto;
+}
+.bg-img {
+    height: auto;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
 /*Style rules for footer*/
 footer {
     background-color: #d3d3d3;
