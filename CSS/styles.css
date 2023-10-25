@@ -119,6 +119,17 @@ ul li:hover ul.dropdown2 {
 
 /*style rules for about page*/
 
+.background {
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: (180, 150, 92);
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
 .ginfo {
     position: relative;
     width: 1000px;
@@ -144,7 +155,7 @@ ul li:hover ul.dropdown2 {
     background: #fff;
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
-    
+
 }
 
 #team-members {
@@ -154,20 +165,32 @@ ul li:hover ul.dropdown2 {
 }
 
 #team-members > div {
-    text-align:center;
+    text-align: center;
+}
+
+#packages {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+
+#packages > div {
+    text-align: left;
 }
 
 /*style rule for contact page*/
 h1 {
     text-align: center;
     margin-bottom: 0%;
+    
+    
 }
 
 h2 {
-    text-align:center;
+    text-align: center;
 }
 
-#payment-info {
+#payment container {
     position: relative;
     width: 1000px;
     margin: 100px auto;
@@ -177,6 +200,29 @@ h2 {
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
     text-align: center;
 }
+
+#payment-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    margin:0;
+    padding: 0;
+}
+
+#payment-info > div {
+    text-align: center;
+    position: relative;
+    margin-bottom: -1500px;
+    padding-bottom: -1500px;
+}
+
+.clipart {
+    opacity: 50%;
+    align-content: center;   
+    margin-bottom: 0%;
+    padding:0%;
+}
+
 
 #Travel-agencies {
     position: relative;
@@ -199,6 +245,8 @@ h2 {
 }
 
 #form {
+    display: grid;
+    grid-template-columns: auto auto;
     position: relative;
     width: 1000px;
     margin: 100px auto;
@@ -206,7 +254,19 @@ h2 {
     background: #fff;
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    align-content: center;
 }
+
+.grid {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+}
+
+.grid > div {
+    text-align: center;
+}
+
 
 /*Style rules for activity images*/
 
@@ -217,6 +277,7 @@ h2 {
     color: #fff;
     margin: auto;
 }
+
 .bg-img {
     height: 700px;
     width: auto;
@@ -224,8 +285,11 @@ h2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+<<<<<<< Updated upstream
     margin-top: 30px;
     margin-bottom: 30px;
+=======
+>>>>>>> Stashed changes
 }
 
 .center-text {
@@ -236,6 +300,7 @@ h2 {
     font-size: 55px;
     text-shadow: 2px 2px 4px black;
 }
+<<<<<<< Updated upstream
 /* Style rules for activity bg-shapes */
 
 .bg-shapes{
@@ -288,6 +353,8 @@ h2 {
 .travel-btn-color {
     background-color: rgb(180, 150, 92);
 }
+=======
+>>>>>>> Stashed changes
 
 /*Style rules for payment info grid*/
 
@@ -295,6 +362,7 @@ h2 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 30px;
+
 }
 
 #payment-info > div {
@@ -325,13 +393,16 @@ footer {
 }
 
 /* Media Query for Tablet Viewport */
-@media screen and (min-width: 630px), print {
+@media screen and (min-width: 630px),
+print {
+
     /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
     .tablet-desktop {
         display: block;
     }
 
-    .mobile, .mobile-nav {
+    .mobile,
+    .mobile-nav {
         display: none;
     }
 
@@ -344,7 +415,8 @@ footer {
 }
 
 /* Media Query for Desktop Viewport */
-@media screen and (min-width: 1015px), print {
+@media screen and (min-width: 1015px),
+print {
     /* Desktop Viewport: Style rule for header */
 
     /* Desktop Viewport: Style rules for nav */
