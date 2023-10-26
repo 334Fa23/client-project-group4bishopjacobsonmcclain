@@ -13,7 +13,7 @@ header img {
 nav {
     padding: 0;
     margin: 0;
-    font-family: DM-sans;
+    font-family: 'DM Sans', sans-serif;
 }
 
 /*Navigation container*/
@@ -94,6 +94,7 @@ ul li:hover ul.dropdown2 {
     background: #fff;
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    font-family: 'DM Sans', sans-serif;
 }
 
 .info h2 {
@@ -116,8 +117,41 @@ ul li:hover ul.dropdown2 {
     font-size: 1.2em;
     line-height: 1.6em;
 }
+.timeline {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.info-icons{
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.info-grid {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.info-grid-items {
+    font-family: 'DM Sans', sans-serif;
+}
 
 /*style rules for about page*/
+
+.background {
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: (180, 150, 92);
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    text-align: center;
+}
 
 .ginfo {
     position: relative;
@@ -128,6 +162,12 @@ ul li:hover ul.dropdown2 {
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
     text-align: center;
+    margin-bottom: 0%;
+}
+
+#team-members a {
+    text-decoration: button;
+    color: #000;
 }
 
 #team-members {
@@ -138,27 +178,42 @@ ul li:hover ul.dropdown2 {
     background: #fff;
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+
 }
 
 #team-members {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 20px;
+    grid-gap: 30px;
 }
 
 #team-members > div {
-    text-align:center;
+    text-align: center;
+}
+
+#packages {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+
+#packages > div {
+    text-align: left;
 }
 
 /*style rule for contact page*/
 h1 {
     text-align: center;
-    margin-bottom:0;
-    padding-bottom: 0;
-    position:sticky;
+    margin-bottom: 0%;
+    
+    
 }
 
-#payment-info {
+h2 {
+    text-align: center;
+}
+
+#payment container {
     position: relative;
     width: 1000px;
     margin: 100px auto;
@@ -168,6 +223,29 @@ h1 {
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
     text-align: center;
 }
+
+#payment-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    margin:0;
+    padding: 0;
+}
+
+#payment-info > div {
+    text-align: center;
+    position: relative;
+    margin-bottom: -1500px;
+    padding-bottom: -1500px;
+}
+
+.clipart {
+    opacity: 50%;
+    align-content: center;   
+    margin-bottom: 0%;
+    padding:0%;
+}
+
 
 #Travel-agencies {
     position: relative;
@@ -190,6 +268,8 @@ h1 {
 }
 
 #form {
+    display: grid;
+    grid-template-columns: auto auto;
     position: relative;
     width: 1000px;
     margin: 100px auto;
@@ -197,6 +277,128 @@ h1 {
     background: #fff;
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    align-content: center;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+}
+
+.grid > div {
+    text-align: center;
+}
+
+
+/*Style rules for activity images*/
+
+.img-container {
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+
+.bg-img {
+    height: 700px;
+    width: auto;
+    opacity: 0.75;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Style rules for activity page buttons */
+.btn-container {
+    height: 200px;
+    position: relative;
+    border: none;
+}
+.btn-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.travel-btn {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.travel-btn-color {
+    background-color: rgb(180, 150, 92);
+}
+
+/* Style rules for dining info */
+.dining-grid {
+    display: grid;
+    row-gap: 10px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.dining-grid h2 {
+    text-align: center;
+    font-size: 35px;
+}
+.dining-grid h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.dining-grid-item {
+    position: relative;
+    width: 800px;
+    margin: 7px auto;
+    z-index: 1;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.dining-grid-item h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.dining-grid-item p {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Style rules for dining page buttons */
+.dining-btn {
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dining-btn-color {
+    background-color: rgb(180, 150, 92);
 }
 
 /*Style rules for payment info grid*/
@@ -204,7 +406,8 @@ h1 {
 #payment-info {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 30px;
+
 }
 
 #payment-info > div {
@@ -298,13 +501,20 @@ footer {
     
 =======
 /* Media Query for Tablet Viewport */
+<<<<<<< HEAD
 @media screen (min-width: 630px), print {
+=======
+@media screen and (min-width: 630px),
+print {
+
+>>>>>>> 8d307984ab7717ed64b8258a7241fb55620f2a17
     /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
     .tablet-desktop {
         display: block;
     }
 
-    .mobile, .mobile-nav {
+    .mobile,
+    .mobile-nav {
         display: none;
     }
 
@@ -317,7 +527,12 @@ footer {
 }
 
 /* Media Query for Desktop Viewport */
+<<<<<<< HEAD
 @media screen (min-width: 1015px), print {
+=======
+@media screen and (min-width: 1015px),
+print {
+>>>>>>> 8d307984ab7717ed64b8258a7241fb55620f2a17
     /* Desktop Viewport: Style rule for header */
 
     /* Desktop Viewport: Style rules for nav */
@@ -344,5 +559,9 @@ footer {
         background-color: #fff;
         color: #000;
     }
+<<<<<<< HEAD
 >>>>>>> 75b3ba06422f2d9c738c792e6d589a173a9fc5c6
 }
+=======
+}
+>>>>>>> 8d307984ab7717ed64b8258a7241fb55620f2a17
