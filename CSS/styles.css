@@ -127,6 +127,7 @@ ul li:hover ul.dropdown2 {
     background: #fff;
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    text-align: center;
 }
 
 #team-members {
@@ -139,9 +140,23 @@ ul li:hover ul.dropdown2 {
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
 }
 
+#team-members {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
 
+#team-members > div {
+    text-align:center;
+}
 
 /*style rule for contact page*/
+h1 {
+    text-align: center;
+    margin-bottom:0;
+    padding-bottom: 0;
+    position:sticky;
+}
 
 #payment-info {
     position: relative;
@@ -151,6 +166,7 @@ ul li:hover ul.dropdown2 {
     background: #fff;
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    text-align: center;
 }
 
 #Travel-agencies {
@@ -183,6 +199,81 @@ ul li:hover ul.dropdown2 {
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
 }
 
+/*Style rules for payment info grid*/
+
+#payment-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+#payment-info > div {
+    text-align: center;
+}
+
+/*Style rules for FAQ page*/
+
+#Tera {
+    text-align: center;
+}
+
+#Tera a {
+    text-decoration: none;
+    color: #000;
+}
+
+#ParentTravel, #Payments, #Check {
+    text-align: center;
+}
+
+#ParentTravel {
+    padding-top: 20px;
+}
+
+#Check {
+    padding-bottom: 8%;
+}
+
+#FAQ, #AllPay, #Activities {
+    position: relative;
+    width: 1200px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+
+#FAQ {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5px;
+}
+
+#FAQ > div {
+    text-align: center;
+    padding: 5px;
+}
+
+#AllPay {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px; 
+}
+
+#AllPay > div {
+    text-align: center;
+}
+
+#Activities {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px; 
+}
+
+#Activities > div {
+    text-align: center;
+}
+
 /*Style rules for footer*/
 footer {
     background-color: #d3d3d3;
@@ -193,14 +284,65 @@ footer {
 
 .logo {
     align-content: center;
-    padding: 7px;
+    padding-top: 7px;
 }
 
 .social img {
     float: center;
 }
 
+<<<<<<< HEAD
 .copyright a {
     text-decoration: none;
     color: #000;
+    
+=======
+/* Media Query for Tablet Viewport */
+@media screen (min-width: 630px), print {
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile, .mobile-nav {
+        display: none;
+    }
+
+    /* Tablet Viewport: Style rule for header */
+
+    /* Tablet Viewport: Style rules for nav */
+
+    /* Tablet Viewport: Style rules for main content */
+
+}
+
+/* Media Query for Desktop Viewport */
+@media screen (min-width: 1015px), print {
+    /* Desktop Viewport: Style rule for header */
+
+    /* Desktop Viewport: Style rules for nav */
+
+    /* Desktop Viewport: Style rules for main */
+
+}
+
+/* Media Query for Large Desktop Viewports */
+@media screen (min-width: 1921px) {
+    #container {
+        width: 1920px;
+        margin: 0 auto;
+    }
+
+    table {
+        width: 80%;
+    }
+}
+
+/* Media Query for Print */
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+>>>>>>> 75b3ba06422f2d9c738c792e6d589a173a9fc5c6
 }
