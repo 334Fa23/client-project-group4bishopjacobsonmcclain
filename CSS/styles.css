@@ -285,11 +285,8 @@ h2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-<<<<<<< Updated upstream
     margin-top: 30px;
     margin-bottom: 30px;
-=======
->>>>>>> Stashed changes
 }
 
 .center-text {
@@ -300,7 +297,6 @@ h2 {
     font-size: 55px;
     text-shadow: 2px 2px 4px black;
 }
-<<<<<<< Updated upstream
 /* Style rules for activity bg-shapes */
 
 .bg-shapes{
@@ -353,8 +349,6 @@ h2 {
 .travel-btn-color {
     background-color: rgb(180, 150, 92);
 }
-=======
->>>>>>> Stashed changes
 
 /*Style rules for payment info grid*/
 
