@@ -117,8 +117,46 @@ ul li:hover ul.dropdown2 {
     font-size: 1.2em;
     line-height: 1.6em;
 }
+
 .timeline {
     font-family: 'DM Sans', sans-serif;
+}
+
+.timeline-grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.timeline-odd, div.timeline-even {
+    width: 70%;
+    padding: 5px 80px;
+}
+
+div.timeline-odd {
+    align-self: flex-start;
+}
+
+div.timeline-even {
+    align-self: end;
+    text-align: right;
+}
+
+/*Circle around number in project timeline */
+span.left {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+
+    background-color: #013220;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 .info-icons{
@@ -133,11 +171,18 @@ ul li:hover ul.dropdown2 {
 }
 
 .info-grid {
-    font-family: 'DM Sans', sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
 }
 
-.info-grid-items {
-    font-family: 'DM Sans', sans-serif;
+.info-grid-item {
+    text-align: center;
+}
+
+.info-grid-item img {
+    padding: 10px;
+    height: 150px;
 }
 
 /*style rules for about page*/
@@ -147,7 +192,7 @@ ul li:hover ul.dropdown2 {
     width: 1000px;
     margin: 100px auto;
     z-index: 1;
-    background: (180, 150, 92);
+    background: rgb(180, 150, 92);
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
     text-align: center;
