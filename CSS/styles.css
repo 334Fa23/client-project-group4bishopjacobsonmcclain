@@ -297,30 +297,6 @@ h2 {
     font-size: 55px;
     text-shadow: 2px 2px 4px black;
 }
-/* Style rules for activity bg-shapes */
-
-.bg-shapes{
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    width: auto;
-    height: 250px;
-    margin: 80px;
-    z-index: 1;
-    padding: 50px;
-    transform: skew(20deg);
-    background-color: rgb(1, 77, 34);
-    opacity: 0.3;
-    box-shadow: 10px 30px rgb(180, 150, 92);
-}
-/* Style rules for activity text */
-.bg-shapes p {
-    font-size: 30px;
-    font-weight: bold;
-    color: #fff;
-    text-shadow: 2px 2px 4px black;
-} 
-
 
 /* Style rules for activity page buttons */
 .btn-container {
