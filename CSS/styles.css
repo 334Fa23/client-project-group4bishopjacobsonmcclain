@@ -13,7 +13,7 @@ header img {
 nav {
     padding: 0;
     margin: 0;
-    font-family: DM-sans;
+    font-family: 'DM Sans', sans-serif;
 }
 
 /*Navigation container*/
@@ -94,6 +94,7 @@ ul li:hover ul.dropdown2 {
     background: #fff;
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    font-family: 'DM Sans', sans-serif;
 }
 
 .info h2 {
@@ -115,6 +116,28 @@ ul li:hover ul.dropdown2 {
     display: block;
     font-size: 1.2em;
     line-height: 1.6em;
+}
+.timeline {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.info-icons{
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.info-grid {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.info-grid-items {
+    font-family: 'DM Sans', sans-serif;
 }
 
 /*style rules for about page*/
