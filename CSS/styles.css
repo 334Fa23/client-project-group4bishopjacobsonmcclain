@@ -414,7 +414,100 @@ h2 {
     text-align: center;
 }
 
+/* Style rules for Event page*/
+
+#HolidayClassicLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+    padding-top: 25px;
+}
+
+#HolidayImages, #SoccerImages {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3px;
+    padding-left: 275px;
+    padding-bottom: 20px;
+}
+
+#AfookCaption {
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#AfookAud {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    padding top: 20px;
+}
+
+#SoftballInv {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#SoftballInv, #SoftballCaption {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#SoftballCaption {
+    font-weight: bold;
+}
+
+#SoftballImageOne, #SoftballImageTwo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 25px;
+}
+
+#SoftballImageTwo {
+    width: 29%;
+    padding-bottom: 20px;
+}
+
+#HolidayClassic {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#HolidayImages {
+    align-content: center;
+}
+
+#SoccerTrip {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#SoccerCaption {
+    text-align: center;
+    font-weight: bold;
+}
+
+#SoccerComplex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    padding top: 20px;
+    padding-bottom: 25px;
+}
+
 /*Style rules for FAQ page*/
+
+#ActivityPackage {
+    text-align: center;
+}
 
 #Tera {
     text-align: center;
@@ -482,7 +575,7 @@ footer {
     background-color: #d3d3d3;
     text-align: center;
     font-size: 0.70em;
-    text-decoration: #000;
+    text-decoration: none;
 }
 
 .logo {
@@ -494,10 +587,10 @@ footer {
     float: center;
 }
 
-<<<<<<< HEAD
 .copyright a {
     text-decoration: none;
     color: #000;
+}
     
 =======
 /* Media Query for Tablet Viewport */
