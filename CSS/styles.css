@@ -459,33 +459,193 @@ h2 {
     text-align: center;
 }
 
+/* Style rules for Event page*/
+
+#HolidayClassicLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+    padding-top: 25px;
+}
+
+#HolidayImages, #SoccerImages {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3px;
+    padding-left: 275px;
+    padding-bottom: 20px;
+}
+
+#AfookCaption {
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#AfookAud {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    padding top: 20px;
+}
+
+#SoftballInv {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#SoftballInv, #SoftballCaption {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#SoftballCaption {
+    font-weight: bold;
+}
+
+#SoftballImageOne, #SoftballImageTwo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 25px;
+}
+
+#SoftballImageTwo {
+    width: 29%;
+    padding-bottom: 20px;
+}
+
+#HolidayClassic {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#HolidayImages {
+    align-content: center;
+}
+
+#SoccerTrip {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#SoccerCaption {
+    text-align: center;
+    font-weight: bold;
+}
+
+#SoccerComplex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+    padding top: 20px;
+    padding-bottom: 25px;
+}
+
+/*Style rules for FAQ page*/
+
+#ActivityPackage {
+    text-align: center;
+}
+
+#Tera {
+    text-align: center;
+}
+
+#Tera a {
+    text-decoration: none;
+    color: #000;
+}
+
+#ParentTravel, #Payments, #Check {
+    text-align: center;
+}
+
+#ParentTravel {
+    padding-top: 20px;
+}
+
+#Check {
+    padding-bottom: 8%;
+}
+
+#FAQ, #AllPay, #Activities {
+    position: relative;
+    width: 1200px;
+    margin: 100px auto;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+
+#FAQ {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5px;
+}
+
+#FAQ > div {
+    text-align: center;
+    padding: 5px;
+}
+
+#AllPay {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px; 
+}
+
+#AllPay > div {
+    text-align: center;
+}
+
+#Activities {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px; 
+}
+
+#Activities > div {
+    text-align: center;
+}
+
 /*Style rules for footer*/
 footer {
     background-color: #d3d3d3;
     text-align: center;
     font-size: 0.70em;
-    text-decoration: #000;
+    text-decoration: none;
 }
 
 .logo {
     align-content: center;
-}
-
-.social {
-    align-content: center;
-    height: 20%;
-    width: 20%;
-    text-decoration: #000;
+    padding-top: 7px;
 }
 
 .social img {
     float: center;
 }
 
+.copyright a {
+    text-decoration: none;
+    color: #000;
+}
+    
+=======
 /* Media Query for Tablet Viewport */
+<<<<<<< HEAD
+@media screen (min-width: 630px), print {
+=======
 @media screen and (min-width: 630px),
 print {
 
+>>>>>>> 8d307984ab7717ed64b8258a7241fb55620f2a17
     /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
     .tablet-desktop {
         display: block;
@@ -505,8 +665,12 @@ print {
 }
 
 /* Media Query for Desktop Viewport */
+<<<<<<< HEAD
+@media screen (min-width: 1015px), print {
+=======
 @media screen and (min-width: 1015px),
 print {
+>>>>>>> 8d307984ab7717ed64b8258a7241fb55620f2a17
     /* Desktop Viewport: Style rule for header */
 
     /* Desktop Viewport: Style rules for nav */
@@ -516,7 +680,7 @@ print {
 }
 
 /* Media Query for Large Desktop Viewports */
-@media screen and (min-width: 1921px) {
+@media screen (min-width: 1921px) {
     #container {
         width: 1920px;
         margin: 0 auto;
@@ -533,4 +697,9 @@ print {
         background-color: #fff;
         color: #000;
     }
+<<<<<<< HEAD
+>>>>>>> 75b3ba06422f2d9c738c792e6d589a173a9fc5c6
 }
+=======
+}
+>>>>>>> 8d307984ab7717ed64b8258a7241fb55620f2a17
