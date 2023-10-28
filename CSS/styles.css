@@ -13,7 +13,12 @@ header img {
 nav {
     padding: 0;
     margin: 0;
+<<<<<<< Updated upstream
     font-family: 'DM Sans', sans-serif;
+=======
+    font-family: DM-sans;
+    text-align: center;
+>>>>>>> Stashed changes
 }
 
 /*Navigation container*/
@@ -48,6 +53,10 @@ ul li a {
     position: absolute;
     z-index: 999;
     display: none;
+}
+
+.navlogo {
+    margin-top: 20%;
 }
 
 /* Hover for nav items*/
@@ -233,11 +242,11 @@ span.left {
 }
 
 #team-members > div {
-    text-align: center;
+    text-align: left;
 }
 
 #packages {
-    display:grid;
+    display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 50px;
 }
@@ -250,8 +259,6 @@ span.left {
 h1 {
     text-align: center;
     margin-bottom: 0%;
-    
-    
 }
 
 h2 {
@@ -273,7 +280,7 @@ h2 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 30px;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
@@ -286,9 +293,9 @@ h2 {
 
 .clipart {
     opacity: 50%;
-    align-content: center;   
+    align-content: center;
     margin-bottom: 0%;
-    padding:0%;
+    padding: 0%;
 }
 
 
@@ -326,7 +333,7 @@ h2 {
 }
 
 .grid {
-    display:grid;
+    display: grid;
     grid-template-columns: auto auto;
     grid-gap: 50px;
 }
@@ -353,8 +360,14 @@ h2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+<<<<<<< Updated upstream
     margin-top: 30px;
     margin-bottom: 30px;
+=======
+    <<<<<<< Updated upstream margin-top: 30px;
+    margin-bottom: 30px;
+    ======= > > > > > > > Stashed changes
+>>>>>>> Stashed changes
 }
 
 .center-text {
@@ -365,6 +378,36 @@ h2 {
     font-size: 55px;
     text-shadow: 2px 2px 4px black;
 }
+<<<<<<< Updated upstream
+=======
+
+<<<<<<< Updated upstream
+/* Style rules for activity bg-shapes */
+
+.bg-shapes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 250px;
+    margin: 80px;
+    z-index: 1;
+    padding: 50px;
+    transform: skew(20deg);
+    background-color: rgb(1, 77, 34);
+    opacity: 0.3;
+    box-shadow: 10px 30px rgb(180, 150, 92);
+}
+
+/* Style rules for activity text */
+.bg-shapes p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px black;
+}
+
+>>>>>>> Stashed changes
 
 /* Style rules for activity page buttons */
 .btn-container {
@@ -372,6 +415,7 @@ h2 {
     position: relative;
     border: none;
 }
+
 .btn-center {
     margin: 0;
     position: absolute;
@@ -380,6 +424,7 @@ h2 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
 .travel-btn {
     padding: 15px 32px;
     text-align: center;
@@ -393,6 +438,7 @@ h2 {
 .travel-btn-color {
     background-color: rgb(180, 150, 92);
 }
+<<<<<<< Updated upstream
 
 /* Style rules for dining info */
 .dining-grid {
@@ -445,7 +491,10 @@ h2 {
 .dining-btn-color {
     background-color: rgb(180, 150, 92);
 }
+=======
+>>>>>>> Stashed changes
 
+======= > > > > > > > Stashed changes
 /*Style rules for payment info grid*/
 
 #payment-info {
