@@ -13,12 +13,8 @@ header img {
 nav {
     padding: 0;
     margin: 0;
-<<<<<<< Updated upstream
-    font-family: 'DM Sans', sans-serif;
-=======
     font-family: DM-sans;
     text-align: center;
->>>>>>> Stashed changes
 }
 
 /*Navigation container*/
@@ -360,14 +356,9 @@ h2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-<<<<<<< Updated upstream
     margin-top: 30px;
     margin-bottom: 30px;
-=======
-    <<<<<<< Updated upstream margin-top: 30px;
     margin-bottom: 30px;
-    ======= > > > > > > > Stashed changes
->>>>>>> Stashed changes
 }
 
 .center-text {
@@ -378,10 +369,6 @@ h2 {
     font-size: 55px;
     text-shadow: 2px 2px 4px black;
 }
-<<<<<<< Updated upstream
-=======
-
-<<<<<<< Updated upstream
 /* Style rules for activity bg-shapes */
 
 .bg-shapes {
@@ -406,8 +393,6 @@ h2 {
     color: #fff;
     text-shadow: 2px 2px 4px black;
 }
-
->>>>>>> Stashed changes
 
 /* Style rules for activity page buttons */
 .btn-container {
@@ -438,7 +423,6 @@ h2 {
 .travel-btn-color {
     background-color: rgb(180, 150, 92);
 }
-<<<<<<< Updated upstream
 
 /* Style rules for dining info */
 .dining-grid {
@@ -491,10 +475,7 @@ h2 {
 .dining-btn-color {
     background-color: rgb(180, 150, 92);
 }
-=======
->>>>>>> Stashed changes
 
-======= > > > > > > > Stashed changes
 /*Style rules for payment info grid*/
 
 #payment-info {
@@ -537,7 +518,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 33%;
-    padding top: 20px;
+    padding-top: 20px;
 }
 
 #SoftballInv {
@@ -593,7 +574,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 28%;
-    padding top: 20px;
+    padding-top: 20px;
     padding-bottom: 25px;
 }
 
@@ -686,40 +667,12 @@ footer {
     color: #000;
 }
     
-=======
 /* Media Query for Tablet Viewport */
-<<<<<<< HEAD
-@media screen (min-width: 630px), print {
-=======
-@media screen and (min-width: 630px),
-print {
 
->>>>>>> 8d307984ab7717ed64b8258a7241fb55620f2a17
-    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
-    .tablet-desktop {
-        display: block;
-    }
-
-    .mobile,
-    .mobile-nav {
-        display: none;
-    }
-
-    /* Tablet Viewport: Style rule for header */
-
-    /* Tablet Viewport: Style rules for nav */
-
-    /* Tablet Viewport: Style rules for main content */
-
-}
 
 /* Media Query for Desktop Viewport */
-<<<<<<< HEAD
-@media screen (min-width: 1015px), print {
-=======
 @media screen and (min-width: 1015px),
 print {
->>>>>>> 8d307984ab7717ed64b8258a7241fb55620f2a17
     /* Desktop Viewport: Style rule for header */
 
     /* Desktop Viewport: Style rules for nav */
@@ -729,16 +682,7 @@ print {
 }
 
 /* Media Query for Large Desktop Viewports */
-@media screen (min-width: 1921px) {
-    #container {
-        width: 1920px;
-        margin: 0 auto;
-    }
 
-    table {
-        width: 80%;
-    }
-}
 
 /* Media Query for Print */
 @media print {
@@ -746,9 +690,5 @@ print {
         background-color: #fff;
         color: #000;
     }
-<<<<<<< HEAD
->>>>>>> 75b3ba06422f2d9c738c792e6d589a173a9fc5c6
 }
-=======
-}
->>>>>>> 8d307984ab7717ed64b8258a7241fb55620f2a17
+
