@@ -668,7 +668,32 @@ footer {
 }
     
 /* Media Query for Tablet Viewport */
+@media screen {
+    #container {
+        width: 1920px;
+        margin: 0 auto;
+    }
 
+    table {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 630px), print {
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile, .mobile-nav {
+        display: none;
+    }
+
+    /* Tablet Viewport: Style rule for header */
+
+    /* Tablet Viewport: Style rules for nav */
+
+    /* Tablet Viewport: Style rules for main content */
+}
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px),
