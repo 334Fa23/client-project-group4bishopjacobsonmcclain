@@ -388,6 +388,7 @@ h2 {
 }
 
 .bg-img {
+    position: absolute;
     height: 700px;
     width: auto;
     opacity: 0.75;
@@ -410,6 +411,7 @@ h2 {
 /* Style rules for activity bg-shapes */
 
 .bg-shapes {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
