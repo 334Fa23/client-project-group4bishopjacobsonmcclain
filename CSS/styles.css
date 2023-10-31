@@ -13,15 +13,8 @@ header img {
 nav {
     padding: 0;
     margin: 0;
-<<<<<<< Updated upstream
     font-family: DM-sans;
     text-align: center;
-=======
-    <<<<<<< Updated upstream font-family: 'DM Sans', sans-serif;
-    =======font-family: DM-sans;
-    text-align: center;
-    > > > > > > > Stashed changes
->>>>>>> Stashed changes
 }
 
 /*Navigation container*/
@@ -401,17 +394,9 @@ h2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-<<<<<<< Updated upstream
     margin-top: 30px;
     margin-bottom: 30px;
     margin-bottom: 30px;
-=======
-    <<<<<<< Updated upstream margin-top: 30px;
-    margin-bottom: 30px;
-    =======<<<<<<< Updated upstream margin-top: 30px;
-    margin-bottom: 30px;
-    ======= > > > > > > > Stashed changes > > > > > > > Stashed changes
->>>>>>> Stashed changes
 }
 
 .center-text {
@@ -422,11 +407,6 @@ h2 {
     font-size: 55px;
     text-shadow: 2px 2px 4px black;
 }
-<<<<<<< Updated upstream
-=======
-
-<<<<<<< Updated upstream=======<<<<<<< Updated upstream
->>>>>>> Stashed changes
 /* Style rules for activity bg-shapes */
 
 .bg-shapes {
@@ -452,11 +432,6 @@ h2 {
     text-shadow: 2px 2px 4px black;
 }
 
-<<<<<<< Updated upstream
-=======
-> > > > > > > Stashed changes
-
->>>>>>> Stashed changes
 /* Style rules for activity page buttons */
 .btn-container {
     height: 200px;
@@ -486,11 +461,6 @@ h2 {
 .travel-btn-color {
     background-color: rgb(180, 150, 92);
 }
-<<<<<<< Updated upstream
-=======
-
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
 
 /* Style rules for dining info */
 .dining-grid {
@@ -545,10 +515,6 @@ h2 {
     background-color: rgb(180, 150, 92);
 }
 
-<<<<<<< Updated upstream
-=======
-======= > > > > > > > Stashed changes======= > > > > > > > Stashed changes
->>>>>>> Stashed changes
 /*Style rules for payment info grid*/
 
 #payment-info {
@@ -746,7 +712,6 @@ footer {
     text-decoration: none;
     color: #000;
 }
-<<<<<<< Updated upstream
     
 /* Media Query for Tablet Viewport */
 @media screen {
@@ -798,77 +763,55 @@ print {
     }
 }
 
-=======
-
-=======
 
 /* Media Query for Tablet Viewport */
-<<<<<<< HEAD @media screen (min-width: 630px),
-print {
-
-    =======@media screen and (min-width: 630px),
-    print {
-
-        > > > > > > > 8d307984ab7717ed64b8258a7241fb55620f2a17
-
-        /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
-        .tablet-desktop {
-            display: block;
-        }
-
-        .mobile,
-        .mobile-nav {
-            display: none;
-        }
-
-        /* Tablet Viewport: Style rule for header */
-
-        /* Tablet Viewport: Style rules for nav */
-
-
-        /* Tablet Viewport: Style rules for main content */
-
+@media screen and (min-width: 630px), print {
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
     }
 
-    /* Media Query for Desktop Viewport */
-    <<<<<<< HEAD @media screen (min-width: 1015px),
-    print {
+    .mobile,
+    .mobile-nav {
+        display: none;
+    }
 
-        =======@media screen and (min-width: 1015px),
-        print {
-            > > > > > > > 8d307984ab7717ed64b8258a7241fb55620f2a17
+    /* Tablet Viewport: Style rule for header */
+
+    /* Tablet Viewport: Style rules for nav */
+
+
+    /* Tablet Viewport: Style rules for main content */
+
+}
+
+    /* Media Query for Desktop Viewport */
+
+    @media screen and (min-width: 1015px), print {
             /* Desktop Viewport: Style rule for header */
 
             /* Desktop Viewport: Style rules for nav */
 
             /* Desktop Viewport: Style rules for main */
 
-        }
-
-        /* Media Query for Large Desktop Viewports */
-        @media screen (min-width: 1921px) {
-            #container {
-                width: 1920px;
-                margin: 0 auto;
-            }
-
-            table {
-                width: 80%;
-            }
-        }
-
-        /* Media Query for Print */
-        @media print {
-            body {
-                background-color: #fff;
-                color: #000;
-            }
-
-            <<<<<<< HEAD > > > > > > > 75b3ba06422f2d9c738c792e6d589a173a9fc5c6
-        }
-
-        =======
     }
 
-    > > > > > > > 8d307984ab7717ed64b8258a7241fb55620f2a17
->>>>>>> Stashed changes
+    /* Media Query for Large Desktop Viewports */
+    @media screen and (min-width: 1921px) {
+        #container {
+            width: 1920px;
+            margin: 0 auto;
+        }
+
+        table {
+            width: 80%;
+        }
+    }
+
+    /* Media Query for Print */
+    @media print {
+        body {
+            background-color: #fff;
+            color: #000;
+        }
+    }
