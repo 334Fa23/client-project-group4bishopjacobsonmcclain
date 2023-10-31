@@ -13,8 +13,15 @@ header img {
 nav {
     padding: 0;
     margin: 0;
+<<<<<<< Updated upstream
     font-family: DM-sans;
     text-align: center;
+=======
+    <<<<<<< Updated upstream font-family: 'DM Sans', sans-serif;
+    =======font-family: DM-sans;
+    text-align: center;
+    > > > > > > > Stashed changes
+>>>>>>> Stashed changes
 }
 
 /*Navigation container*/
@@ -134,7 +141,8 @@ ul li:hover ul.dropdown2 {
     margin-right: 10%;
 }
 
-div.timeline-odd, div.timeline-even {
+div.timeline-odd,
+div.timeline-even {
     width: 70%;
     padding: 5px 80px;
 }
@@ -164,7 +172,7 @@ span.left {
     font-size: 1.5em;
 }
 
-.info-icons{
+.info-icons {
     position: relative;
     width: 1000px;
     margin: 100px auto;
@@ -192,6 +200,11 @@ span.left {
 
 /*style rules for about page*/
 
+h3 {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
 .background {
     position: relative;
     width: 1000px;
@@ -213,11 +226,21 @@ span.left {
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
     text-align: center;
     margin-bottom: 0%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#links {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: #013220;
+
 }
 
 #team-members a {
     text-decoration: button;
     color: #000;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #team-members {
@@ -255,13 +278,15 @@ span.left {
 h1 {
     text-align: center;
     margin-bottom: 0%;
+    font-family: 'DM Sans', sans-serif;
 }
 
 h2 {
     text-align: center;
+    font-family: 'DM Sans', sans-serif;
 }
 
-#payment container {
+#payment-container {
     position: relative;
     width: 1000px;
     margin: 100px auto;
@@ -270,6 +295,7 @@ h2 {
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
     text-align: center;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #payment-info {
@@ -278,20 +304,37 @@ h2 {
     grid-gap: 30px;
     margin: 0;
     padding: 0;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #payment-info > div {
+    font-family: 'DM Sans', sans-serif;
     text-align: center;
     position: relative;
     margin-bottom: -1500px;
     padding-bottom: -1500px;
 }
 
-.clipart {
-    opacity: 50%;
-    align-content: center;
-    margin-bottom: 0%;
-    padding: 0%;
+#text {
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.info-grid-c {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.info-grid-c-item {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.info-grid-c-item img {
+    padding: 10px;
+    height: 150px;
 }
 
 
@@ -326,6 +369,7 @@ h2 {
     padding: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
     align-content: center;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .grid {
@@ -336,6 +380,7 @@ h2 {
 
 .grid > div {
     text-align: center;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -356,9 +401,17 @@ h2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+<<<<<<< Updated upstream
     margin-top: 30px;
     margin-bottom: 30px;
     margin-bottom: 30px;
+=======
+    <<<<<<< Updated upstream margin-top: 30px;
+    margin-bottom: 30px;
+    =======<<<<<<< Updated upstream margin-top: 30px;
+    margin-bottom: 30px;
+    ======= > > > > > > > Stashed changes > > > > > > > Stashed changes
+>>>>>>> Stashed changes
 }
 
 .center-text {
@@ -369,6 +422,11 @@ h2 {
     font-size: 55px;
     text-shadow: 2px 2px 4px black;
 }
+<<<<<<< Updated upstream
+=======
+
+<<<<<<< Updated upstream=======<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 /* Style rules for activity bg-shapes */
 
 .bg-shapes {
@@ -394,6 +452,11 @@ h2 {
     text-shadow: 2px 2px 4px black;
 }
 
+<<<<<<< Updated upstream
+=======
+> > > > > > > Stashed changes
+
+>>>>>>> Stashed changes
 /* Style rules for activity page buttons */
 .btn-container {
     height: 200px;
@@ -423,6 +486,11 @@ h2 {
 .travel-btn-color {
     background-color: rgb(180, 150, 92);
 }
+<<<<<<< Updated upstream
+=======
+
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
 
 /* Style rules for dining info */
 .dining-grid {
@@ -435,6 +503,7 @@ h2 {
     text-align: center;
     font-size: 35px;
 }
+
 .dining-grid h3 {
     text-align: center;
     font-size: 30px;
@@ -476,6 +545,10 @@ h2 {
     background-color: rgb(180, 150, 92);
 }
 
+<<<<<<< Updated upstream
+=======
+======= > > > > > > > Stashed changes======= > > > > > > > Stashed changes
+>>>>>>> Stashed changes
 /*Style rules for payment info grid*/
 
 #payment-info {
@@ -499,7 +572,8 @@ h2 {
     padding-top: 25px;
 }
 
-#HolidayImages, #SoccerImages {
+#HolidayImages,
+#SoccerImages {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 3px;
@@ -526,7 +600,8 @@ h2 {
     padding-right: 75px;
 }
 
-#SoftballInv, #SoftballCaption {
+#SoftballInv,
+#SoftballCaption {
     padding-top: 20px;
     text-align: center;
 }
@@ -535,7 +610,8 @@ h2 {
     font-weight: bold;
 }
 
-#SoftballImageOne, #SoftballImageTwo {
+#SoftballImageOne,
+#SoftballImageTwo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -593,7 +669,9 @@ h2 {
     color: #000;
 }
 
-#ParentTravel, #Payments, #Check {
+#ParentTravel,
+#Payments,
+#Check {
     text-align: center;
 }
 
@@ -605,7 +683,9 @@ h2 {
     padding-bottom: 8%;
 }
 
-#FAQ, #AllPay, #Activities {
+#FAQ,
+#AllPay,
+#Activities {
     position: relative;
     width: 1200px;
     margin: 100px auto;
@@ -628,7 +708,7 @@ h2 {
 #AllPay {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 5px; 
+    grid-gap: 5px;
 }
 
 #AllPay > div {
@@ -638,7 +718,7 @@ h2 {
 #Activities {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 5px; 
+    grid-gap: 5px;
 }
 
 #Activities > div {
@@ -666,6 +746,7 @@ footer {
     text-decoration: none;
     color: #000;
 }
+<<<<<<< Updated upstream
     
 /* Media Query for Tablet Viewport */
 @media screen {
@@ -717,3 +798,77 @@ print {
     }
 }
 
+=======
+
+=======
+
+/* Media Query for Tablet Viewport */
+<<<<<<< HEAD @media screen (min-width: 630px),
+print {
+
+    =======@media screen and (min-width: 630px),
+    print {
+
+        > > > > > > > 8d307984ab7717ed64b8258a7241fb55620f2a17
+
+        /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+        .tablet-desktop {
+            display: block;
+        }
+
+        .mobile,
+        .mobile-nav {
+            display: none;
+        }
+
+        /* Tablet Viewport: Style rule for header */
+
+        /* Tablet Viewport: Style rules for nav */
+
+
+        /* Tablet Viewport: Style rules for main content */
+
+    }
+
+    /* Media Query for Desktop Viewport */
+    <<<<<<< HEAD @media screen (min-width: 1015px),
+    print {
+
+        =======@media screen and (min-width: 1015px),
+        print {
+            > > > > > > > 8d307984ab7717ed64b8258a7241fb55620f2a17
+            /* Desktop Viewport: Style rule for header */
+
+            /* Desktop Viewport: Style rules for nav */
+
+            /* Desktop Viewport: Style rules for main */
+
+        }
+
+        /* Media Query for Large Desktop Viewports */
+        @media screen (min-width: 1921px) {
+            #container {
+                width: 1920px;
+                margin: 0 auto;
+            }
+
+            table {
+                width: 80%;
+            }
+        }
+
+        /* Media Query for Print */
+        @media print {
+            body {
+                background-color: #fff;
+                color: #000;
+            }
+
+            <<<<<<< HEAD > > > > > > > 75b3ba06422f2d9c738c792e6d589a173a9fc5c6
+        }
+
+        =======
+    }
+
+    > > > > > > > 8d307984ab7717ed64b8258a7241fb55620f2a17
+>>>>>>> Stashed changes
