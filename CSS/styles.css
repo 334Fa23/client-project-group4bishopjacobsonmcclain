@@ -530,22 +530,44 @@ h2 {
     text-align: center;
 }
 
-/* Style rules for Event page*/
+/* Style rules for Events page*/
+
+#EventsAfook,
+#SoftballTitle,
+#HolidayTitle {
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 15px;
+}
+#AllSoccer {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+}
+
+#SoccerTripTitle {
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 15px;
+}
+
+#SoccerTrip {
+    margin-left: 25%;
+    margin-right: 25%;
+}
 
 #HolidayClassicLogo {
-    display: block;
+    display: grid;
+    place-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 21%;
     padding-top: 25px;
 }
 
 #HolidayImages,
 #SoccerImages {
     display: grid;
+    place-items: center;
     grid-template-columns: auto auto;
     grid-gap: 3px;
-    padding-left: 275px;
     padding-bottom: 20px;
 }
 
@@ -556,16 +578,21 @@ h2 {
 }
 
 #AfookAud {
-    display: block;
+    display: grid;
+    place-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 33%;
     padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+#AfookAll {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
 }
 
 #SoftballInv {
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #SoftballInv,
@@ -580,21 +607,22 @@ h2 {
 
 #SoftballImageOne,
 #SoftballImageTwo {
-    display: block;
+    display: grid;
+    place-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
     padding-top: 25px;
 }
 
 #SoftballImageTwo {
-    width: 29%;
     padding-bottom: 20px;
 }
 
 #HolidayClassic {
     text-align: center;
     padding-bottom: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 #HolidayImages {
@@ -614,63 +642,51 @@ h2 {
 }
 
 #SoccerComplex {
-    display: block;
+    display: grid;
+    place-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 28%;
     padding-top: 20px;
     padding-bottom: 25px;
 }
 
 /*Style rules for FAQ page*/
 
+#Activ {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+#Activ > div {
+    text-align: center;
+}
+
+#ActivPackageAll {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+}
+
 #ActivityPackage {
     text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1%;
 }
 
-#Tera {
-    text-align: center;
+#FAQTitle {
+    padding-bottom: 3%;
 }
 
-#Tera a {
-    text-decoration: none;
-    color: #000;
-}
-
-#ParentTravel,
-#Payments,
-#Check {
-    text-align: center;
-}
-
-#ParentTravel {
-    padding-top: 20px;
-}
-
-#Check {
-    padding-bottom: 8%;
-}
-
-#FAQ,
-#AllPay,
-#Activities {
-    position: relative;
-    width: 1200px;
-    margin: 100px auto;
-    z-index: 1;
-    background: #fff;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
-}
-
-#FAQ {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-gap: 5px;
-}
-
-#FAQ > div {
-    text-align: center;
-    padding: 5px;
+#FAQTitle,
+#TitleTownPackage {
+    padding-top: 5px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 #AllPay {
@@ -683,16 +699,76 @@ h2 {
     text-align: center;
 }
 
-#Activities {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 5px;
+#ActivGall {
+    padding-top: 2%;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-#Activities > div {
+#ActiveGal {
     text-align: center;
 }
 
+#ActiveGal {
+    padding-top: 2%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#Tera {
+    text-align: center;
+    padding-bottom: 3%;
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+#Tera a {
+    text-decoration: none;
+    color: #000;
+}
+
+#Payments,
+#Check {
+    text-align: center;
+    padding-top: 3%;
+}
+
+#Check {
+    padding-bottom: 3%;
+}
+
+#Paycheck {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+}
+
+}
+#ParentTravel {
+    padding-top: 20px;
+}
+
+#ParentTravel,
+#Payments,
+#Check {
+    text-align: center;
+}
+
+#ParentTravel {
+    padding-top: 3%;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#FAQ {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5px;
+    padding-bottom: 3%;
+}
+
+#FAQ > div {
+    text-align: center;
+    padding: 5px;
+}
 /*Style rules for footer*/
 footer {
     background-color: #d3d3d3;
