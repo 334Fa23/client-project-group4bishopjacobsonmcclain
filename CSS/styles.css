@@ -134,8 +134,7 @@ ul li:hover ul.dropdown2 {
     margin-right: 10%;
 }
 
-div.timeline-odd,
-div.timeline-even {
+div.timeline-odd, div.timeline-even {
     width: 70%;
     padding: 5px 80px;
 }
@@ -145,7 +144,7 @@ div.timeline-odd {
 }
 
 div.timeline-even {
-    align-self: end;
+    align-self: flex-end;
     text-align: right;
 }
 
