@@ -141,10 +141,13 @@ ul li:hover ul.dropdown2 {
     margin-left: 10%;
     margin-right: 10%;
 }
+
 .timeline-grid h3 {
     text-align: unset;
 }
-div.timeline-odd, div.timeline-even {
+
+div.timeline-odd,
+div.timeline-even {
     width: 70%;
     padding: 5px 80px;
 }
@@ -269,12 +272,41 @@ h3 {
 #about-paragraph {
     color: #000;
 }
+
 .packages {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 50px;
     text-decoration: bold;
-    
+
+}
+
+/*Graphics for about page*/
+
+.apgraphics2 {
+    position: absolute;
+    height: 700px;
+    width: auto;
+    opacity: 0.35;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+    margin-bottom: 30px;
+    margin-left: -500px;
+}
+
+.apgraphics {
+    position: absolute;
+    height: 700px;
+    width: auto;
+    opacity: 0.35;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+    margin-bottom: 30px;
+    margin-left: -130px;
 }
 
 .packages > div {
@@ -423,6 +455,7 @@ h3 {
     font-size: 55px;
     text-shadow: 2px 2px 4px black;
 }
+
 /* Style rules for activity bg-shapes */
 
 .bg-img2 {
@@ -544,6 +577,7 @@ h3 {
     text-decoration: underline;
     padding-top: 15px;
 }
+
 #AllSoccer {
     box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
 }
@@ -773,6 +807,7 @@ h3 {
     text-align: center;
     padding: 5px;
 }
+
 /*Style rules for footer*/
 footer {
     background-color: #d3d3d3;
@@ -794,7 +829,7 @@ footer {
     text-decoration: none;
     color: #000;
 }
-    
+
 /* Media Query for Tablet Viewport */
 @media screen {
     #container {
@@ -807,49 +842,8 @@ footer {
     }
 }
 
-@media screen and (min-width: 630px), print {
-    .tablet-desktop {
-        display: block;
-    }
-
-    .mobile, .mobile-nav {
-        display: none;
-    }
-
-    /* Tablet Viewport: Style rule for header */
-
-    /* Tablet Viewport: Style rules for nav */
-
-    /* Tablet Viewport: Style rules for main content */
-}
-
-/* Media Query for Desktop Viewport */
-@media screen and (min-width: 1015px),
+@media screen and (min-width: 630px),
 print {
-    /* Desktop Viewport: Style rule for header */
-
-    /* Desktop Viewport: Style rules for nav */
-    
-
-    /* Desktop Viewport: Style rules for main */
-
-}
-
-/* Media Query for Large Desktop Viewports */
-
-
-/* Media Query for Print */
-@media print {
-    body {
-        background-color: #fff;
-        color: #000;
-    }
-}
-
-
-/* Media Query for Tablet Viewport */
-@media screen and (min-width: 630px), print {
-    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
     .tablet-desktop {
         display: block;
     }
@@ -863,21 +857,51 @@ print {
 
     /* Tablet Viewport: Style rules for nav */
 
-
     /* Tablet Viewport: Style rules for main content */
-
-}
-
-    /* Media Query for Desktop Viewport */
-
-    @media screen and (min-width: 1015px), print {
-            /* Desktop Viewport: Style rule for header */
-
-            /* Desktop Viewport: Style rules for nav */
-
-            /* Desktop Viewport: Style rules for main */
+    .apgraphics {
+        display: none;
+        position: absolute;
+        height: 700px;
+        width: auto;
+        opacity: 0.35;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -150px;
+        margin-bottom: 30px;
+        margin-left: -130px;
 
     }
+
+    .apgraphics2 {
+        display: none;
+        position: absolute;
+        height: 700px;
+        width: auto;
+        opacity: 0.35;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -200px;
+        margin-bottom: 30px;
+        margin-left: -500px;
+    }
+
+    .ginfo {
+        position: relative;
+        width: 1000px;
+        margin: 100px auto;
+        z-index: 1;
+        background: #fff;
+        padding: 50px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+        text-align: center;
+        margin-bottom: 0%;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 16px;
+    }
+
+    
 
     /* Media Query for Large Desktop Viewports */
     @media screen and (min-width: 1921px) {
