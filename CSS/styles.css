@@ -398,7 +398,7 @@ h3 {
     margin: auto;
 }
 
-#bg-img {
+.bg-img {
     position: absolute;
     height: 700px;
     width: auto;
