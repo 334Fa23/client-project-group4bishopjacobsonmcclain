@@ -20,7 +20,7 @@ nav {
 /*Navigation container*/
 ul {
     list-style: none;
-    background: #013220;
+    background: #014d22;
 }
 
 /*Main navigation content*/
@@ -45,7 +45,7 @@ ul li a {
 
 .dropdown {
     width: 100%;
-    background: #013220;
+    background: #014d22;
     position: absolute;
     z-index: 999;
     display: none;
@@ -847,6 +847,7 @@ print {
     /* Desktop Viewport: Style rule for header */
 
     /* Desktop Viewport: Style rules for nav */
+    
 
     /* Desktop Viewport: Style rules for main */
 
