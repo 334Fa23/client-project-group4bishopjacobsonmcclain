@@ -127,6 +127,10 @@ ul li:hover ul.dropdown2 {
     line-height: 1.6em;
 }
 
+.info-icons h2 {
+    text-align: center;
+}
+
 .timeline {
     font-family: 'DM Sans', sans-serif;
 }
@@ -978,3 +982,4 @@ print {
             color: #000;
         }
     }
+}
