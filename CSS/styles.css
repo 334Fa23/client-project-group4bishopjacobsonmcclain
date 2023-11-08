@@ -850,10 +850,6 @@ footer {
     }
 }
 
-<<<<<<< Updated upstream
-@media screen and (min-width: 630px),
-print {
-=======
 @media screen and (min-width: 630px), print {
     .tablet-desktop {
         display: block;
@@ -900,7 +896,6 @@ print {
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
     /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
->>>>>>> Stashed changes
     .tablet-desktop {
         display: block;
     }
@@ -915,7 +910,6 @@ print {
     /* Tablet Viewport: Style rules for nav */
 
     /* Tablet Viewport: Style rules for main content */
-<<<<<<< Updated upstream
     .apgraphics {
         display: none;
         position: absolute;
@@ -928,21 +922,6 @@ print {
         margin-top: -150px;
         margin-bottom: 30px;
         margin-left: -130px;
-=======
-    
-    /* Tablet Viewport: Style rules for footer content */
-
-}
-
-/* Media Query for Desktop Viewport */
-
-@media screen and (min-width: 1015px), print {
-    /* Desktop Viewport: Style rule for header */
-
-    /* Desktop Viewport: Style rules for nav */
-
-    /* Desktop Viewport: Style rules for main */
->>>>>>> Stashed changes
 
     /* Destkop Viewport: Style rules for footer */
     desktop {
