@@ -817,13 +817,14 @@ h3 {
 footer {
     background-color: #d3d3d3;
     text-align: center;
-    font-size: 0.70em;
+    font-size: 0.75em;
     text-decoration: none;
+    padding-bottom: 2%;
 }
 
 .logo {
     align-content: center;
-    padding-top: 7px;
+    padding-top: 2%;
 }
 
 .social img {
@@ -863,7 +864,7 @@ footer {
     /* Tablet Viewport: Style rules for main content */
     
     /* Tablet Viewport: Style rules for footer content */
-
+    
 }
 
 /* Media Query for Desktop Viewport */
@@ -907,6 +908,7 @@ print {
     /* Tablet Viewport: Style rules for nav */
 
     /* Tablet Viewport: Style rules for main content */
+    
     .apgraphics {
         display: none;
         position: absolute;
@@ -919,15 +921,9 @@ print {
         margin-top: -150px;
         margin-bottom: 30px;
         margin-left: -130px;
-
-    /* Destkop Viewport: Style rules for footer */
-    desktop {
-        display: block;
-    }
-    
     }
 
-    .apgraphics2 {
+     .apgraphics2 {
         display: none;
         position: absolute;
         height: 700px;
@@ -962,7 +958,6 @@ print {
         text-decoration: bold;
 
     }
-
 
     .packages > div {
         text-align: center;
@@ -1007,9 +1002,29 @@ print {
         text-align: center;
         font-family: 'DM Sans', sans-serif;
     }
+    
+    /* Tablet Viewport: Style rules for footer content */
+    footer {
+        background-color: #d3d3d3;
+        text-align: center;
+        font-size: 0.75em;
+        text-decoration: none;
+        padding-bottom: 2%;
+    }
 
+    .logo {
+        align-content: center;
+        padding-top: 2%;
+    }
 
+    .social img {
+        float: center;
+    }
 
+    .copyright a {
+        text-decoration: none;
+        color: #000;
+    }
 
     /* Media Query for Large Desktop Viewports */
     @media screen and (min-width: 1921px) {
