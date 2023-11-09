@@ -247,7 +247,6 @@ h3 {
 }
 
 #team-members a {
-    text-decoration: button;
     color: #000;
     font-family: 'DM Sans', sans-serif;
 }
@@ -310,8 +309,6 @@ h3 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 50px;
-    text-decoration: bold;
-
 }
 
 
