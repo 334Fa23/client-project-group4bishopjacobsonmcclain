@@ -720,6 +720,7 @@ h3 {
     padding-left: 15px;
     padding-right: 15px;
     text-align: left;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #Activ > div {
@@ -735,6 +736,7 @@ h3 {
     padding-left: 25%;
     padding-right: 25%;
     padding-top: 1%;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #FAQTitle {
@@ -747,6 +749,7 @@ h3 {
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #AllPay {
@@ -763,6 +766,7 @@ h3 {
     padding-top: 2%;
     font-weight: bold;
     text-decoration: underline;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #ActiveGal {
@@ -780,6 +784,7 @@ h3 {
     padding-bottom: 3%;
     font-weight: bold;
     padding-top: 3%;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #Tera a {
@@ -809,6 +814,7 @@ h3 {
 #Payments,
 #Check {
     text-align: center;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #ParentTravel {
@@ -822,6 +828,7 @@ h3 {
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 5px;
     padding-bottom: 3%;
+    font-family: 'DM Sans', sans-serif;
 }
 
 #FAQ > div {
