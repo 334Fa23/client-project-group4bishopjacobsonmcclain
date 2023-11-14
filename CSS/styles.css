@@ -832,7 +832,13 @@ footer {
 }
 
 .copyright a {
+    font-family: 'DM Sans', sans-serif;
     text-decoration: none;
+    color: #000;
+}
+
+.copyright p {
+    font-family: 'DM Sans', sans-serif;
     color: #000;
 }
 
