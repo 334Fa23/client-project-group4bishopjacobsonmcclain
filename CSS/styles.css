@@ -290,7 +290,7 @@ h3 {
     position: absolute;
     height: 700px;
     width: auto;
-    opacity: 0.35;
+    opacity: 0.15;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -303,13 +303,14 @@ h3 {
     position: absolute;
     height: 700px;
     width: auto;
-    opacity: 0.35;
+    opacity: 0.15;
     display: inline-flex;
-    align-items: center;
+    align-items: right;
     justify-content: center;
     margin-top: -150px;
     margin-bottom: 30px;
-    margin-left: -130px;
+    margin-right: 0px;
+    padding-right: -1000px;
 }
 
 .packages {
