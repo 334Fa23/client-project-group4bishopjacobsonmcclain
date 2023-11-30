@@ -337,6 +337,18 @@ h3 {
     font-family: 'DM Sans', sans-serif;
 }
 
+.socails {
+    align-content: center;
+    position: absolute;
+    margin-left: 275px;
+}
+
+.socails2 {
+    align-content: center;
+    position: absolute;
+    margin-left:75px;
+}
+
 #payment-container {
     position: relative;
     width: 1000px;
@@ -936,6 +948,7 @@ print {
     /* Tablet Viewport: Style rule for header */
 
     /* Tablet Viewport: Style rules for nav */
+    
 
     /* Tablet Viewport: Style rules for main content */
     
