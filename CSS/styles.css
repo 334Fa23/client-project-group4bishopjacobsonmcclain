@@ -767,7 +767,11 @@ h3 {
 
 #AllPay {
     display: grid;
+    align-items: center;
     grid-template-columns: auto auto auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
     grid-gap: 5px;
 }
 
