@@ -851,11 +851,17 @@ h3 {
 
 /*Style rules for footer*/
 footer {
-    background-color: #d3d3d3;
+    background-color: #014d22;
     text-align: center;
-    font-size: 0.75em;
+    font-size: 0.95em;
     text-decoration: none;
+    text-decoration-color: white;
     padding-bottom: 2%;
+}
+
+#footer {
+    background-color: #014d22;
+    text-decoration-color: white;
 }
 
 .logo {
